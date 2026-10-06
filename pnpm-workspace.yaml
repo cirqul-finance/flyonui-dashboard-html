@@ -1,0 +1,10 @@
+allowBuilds:
+  '@parcel/watcher': set this to true or false
+  '@tailwindcss/oxide': set this to true or false
+  es5-ext: set this to true or false
+  fsevents: set this to true or false
+# pnpm 11 no longer reads a `pnpm.overrides` block from package.json — it warns
+# and ignores it. Overrides only take effect from this file.
+overrides:
+  "brace-expansion@>=1 <2": "^1.1.16"
+  braces: "^3.0.3"
