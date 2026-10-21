@@ -8,3 +8,5 @@ allowBuilds:
 overrides:
   "brace-expansion@>=1 <2": "^1.1.16"
   braces: "^3.0.3"
+  "follow-redirects@<1.16.1": "1.16.1"
+  "source-map-js@<1.2.2": "1.2.2"
